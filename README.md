@@ -6,9 +6,9 @@ Here you will find sysex files and the source BCL scripts to configure a Behring
 
 Send the sysex files to your BCR (I use Elektron C6 for this, but there are plenty of options out there)
 
-Send jx10_upper_tone.syx to Preset 1
-Send jx10_lower_tone.syx to Preset 2
-Send jx10_both_tones.syx to Preset 3
+* Send jx10_upper_tone.syx to Preset 1
+* Send jx10_lower_tone.syx to Preset 2
+* Send jx10_both_tones.syx to Preset 3
 
 Your JX10 should be set to use midi channel 1, for simplicity set upper, lower and control channels to 1
 The script uses NRPNs and as such does not require sysex to be enabled, but you do need to set TONE CC = TRUE and I would recommend setting EDIT DISPLAY = SYSEX (which confussingly also relates to NRPNs in this case) as this will enable you to see what value is being edited when you twist an encoder.
