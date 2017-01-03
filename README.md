@@ -2,7 +2,7 @@
 
 Here you will find sysex files and the source BCL scripts to configure a Behringer BCR2000 as an editor for the Vecoven upgraded Roland JX10. I have OS v3.03, I expect modifications will be required for these scripts to work with v4+
 
-# Setup
+## SETUP
 
 Send the sysex files to your BCR (I use Elektron C6 for this, but there are plenty of options out there)
 
@@ -10,12 +10,25 @@ Send the sysex files to your BCR (I use Elektron C6 for this, but there are plen
 * Send jx10_lower_tone.syx to Preset 2
 * Send jx10_both_tones.syx to Preset 3
 
+
 Your JX10 should be set to use midi channel 1, for simplicity set upper, lower and control channels to 1
+
 The script uses NRPNs and as such does not require sysex to be enabled, but you do need to set TONE CC = TRUE and I would recommend setting EDIT DISPLAY = SYSEX (which confussingly also relates to NRPNs in this case) as this will enable you to see what value is being edited when you twist an encoder.
 
 Plug the BCR midi out to JX midi in and vice versa for bidirectional control.
 
-The parameters are mapped thusly, but if you have taken my advice regarding EDIT DISPLAY simply movinging an encoder should make the JX10 display the currently edited parameter.
+If you want to change the midi channels used you will need to edit the BCL scripts (using a plain text editor) and generate new sysex. 
+
+The number after 'NRPN' represents the midi channel.
+
+`  .easypar NRPN 1 164 0 127 absolute`
+
+The easiest way I know to do generate the sysex from the BCL source files is to use BC Manager (http://mountainutilities.eu/bcmanager)
+
+
+# PARAMETERS
+
+The parameters are mapped as below, but if you have taken my advice regarding EDIT DISPLAY simply movinging an encoder should make the JX10 display the currently edited parameter.
 
 ## ENVELOPES
 
