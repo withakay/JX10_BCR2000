@@ -21,65 +21,65 @@ The parameters are mapped thusly, but if you have taken my advice regarding EDIT
 
 To access ENV-1 parameters enable encoder group 1
 
-Encoder 1 ENV-1 Attack
-Encoder 2 ENV-1 Decay
-Encoder 3 ENV-1 Sus
-Encoder 4 ENV-1 Rel
-Encoder 5 Env1 Key Follow 4 positions
-Encoder 6 LFO Waveform 3 positions
-Encoder 7 LFO Speed
-Encoder 8 LFO Delay
+* Encoder 1 ENV-1 Attack
+* Encoder 2 ENV-1 Decay
+* Encoder 3 ENV-1 Sus
+* Encoder 4 ENV-1 Rel
+* Encoder 5 Env1 Key Follow 4 positions
+* Encoder 6 LFO Waveform 3 positions
+* Encoder 7 LFO Speed
+* Encoder 8 LFO Delay
 
 To access ENV-2 parameters enable encoder group 2
 
-Encoder 9 ENV-2 Attack
-Encoder 10 ENV-2 Decay
-Encoder 11 ENV-2 Sustain
-Encoder 12 ENV-2 Rel
-Encoder 13 ENV-2 Key Follow
-Encoder 14 LFO Waveform Duplicate 3 positions
-Encoder 15 LFO Speed Duplicate
-Encoder 16 LFO Delay Duplicate
+* Encoder 9 ENV-2 Attack
+* Encoder 10 ENV-2 Decay
+* Encoder 11 ENV-2 Sustain
+* Encoder 12 ENV-2 Rel
+* Encoder 13 ENV-2 Key Follow
+* Encoder 14 LFO Waveform Duplicate 3 positions
+* Encoder 15 LFO Speed Duplicate
+* Encoder 16 LFO Delay Duplicate
 
 ## OSCILLATORS
 
-Button 41 DCO-1 Octave 4 positions
-Button 42 DCO-1 Waveform 4 positions
-Button 43 not used
-Button 44 DCO-2 Octave 4 positions
-Button 45 DCO-2 Waveform 4 positions
-Button 46 DCO Crossmod 4 positions
-Button 47 DCO Dynamics 4 positions
-Button 48 DCO Env Mode 4 positions
+* Button 41 DCO-1 Octave 4 positions
+* Button 42 DCO-1 Waveform 4 positions
+* Button 43 not used
+* Button 44 DCO-2 Octave 4 positions
+* Button 45 DCO-2 Waveform 4 positions
+* Button 46 DCO Crossmod 4 positions
+* Button 47 DCO Dynamics 4 positions
+* Button 48 DCO Env Mode 4 positions
 
-Encoder 33 DCO-1 Tune
-Encoder 34 DCO-1 LFO Level
-Encoder 35 DCO-1 Pitch Env
-Encoder 36 DCO-2 Tune
-Encoder 37 DCO-2 LFO Level
-Encoder 38 DCO-2 Pitch Env
-Encoder 39 DCO-2 Fine Tune
-Encoder 40 Chorus Mode 3 positions
+* Encoder 33 DCO-1 Tune
+* Encoder 34 DCO-1 LFO Level
+* Encoder 35 DCO-1 Pitch Env
+* Encoder 36 DCO-2 Tune
+* Encoder 37 DCO-2 LFO Level
+* Encoder 38 DCO-2 Pitch Env
+* Encoder 39 DCO-2 Fine Tune
+* Encoder 40 Chorus Mode 3 positions
 
 ## FILTERS
 
-Encoder 41 VCF Hi Pass 4 positions
-Encoder 42 VCF Freq
-Encoder 43 VCF Q
-Encoder 44 VCF LFO
-Encoder 45 VCF Env
-Encoder 46 VCF Key Follow
-Encoder 47 VCF Dynamic 4 positions
-Encoder 48 VCF Env Mode 4 positions
+* Encoder 41 VCF Hi Pass 4 positions
+* Encoder 42 VCF Freq
+* Encoder 43 VCF Q
+* Encoder 44 VCF LFO
+* Encoder 45 VCF Env
+* Encoder 46 VCF Key Follow
+* Encoder 47 VCF Dynamic 4 positions
+* Encoder 48 VCF Env Mode 4 positions
 
 ## MIXER
 
-Encoder 49 Level DCO-1 
-Encoder 50 Level DCO-2 
-Encoder 51 VCA Envelope Mod
-Encoder 52 VCA Dynamics 4 positions
-Encoder 53 VCA Env Mode 4 positions
-Encoder 54 VCA Base Level
-Encoder 55 VCA Dynamics 4 positions
-Encoder 56 VCA Gate/Env 2 positions
+* Encoder 49 Level DCO-1 
+* Encoder 50 Level DCO-2 
+* Encoder 51 VCA Envelope Mod
+* Encoder 52 VCA Dynamics 4 positions
+* Encoder 53 VCA Env Mode 4 positions
+* Encoder 54 VCA Base Level
+* Encoder 55 VCA Dynamics 4 positions
+* Encoder 56 VCA Gate/Env 2 positions
 
